@@ -1,6 +1,6 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @MrRnp
+# Subscribe YouTube Channel For Amazing Bot @MrRnp
+# Ask Doubt on telegram @MrRnp
 
 import pyrogram, os, asyncio
 
@@ -18,17 +18,17 @@ AutoCaptionBotV1 = pyrogram.Client(
 
 start_message = """
 <b>👋Hello {}</b>
-<b>I am an AutoCaption bot</b>
+<b>I am an Rp AutoCaption bot</b>
 <b>All you have to do is add me to your channel and I will show you my power</b>
-<b>@VJ_Botz</b>"""
+<b>@RnpUpdate</b>"""
 
 about_message = """
-<b>• Name : <a href=https://t.me/VJ_Botz>VJ AutoCaption</a></b>
-<b>• Developer : <a href=https://t.me/VJ_Botz>[VJ UPDATES]</a></b>
+<b>• Name : <a href=https://t.me/RnpUpdate>Rp AutoCaption</a></b>
+<b>• Developer : <a href=https://t.me/MrRnp>[MrRnp]</a></b>
 <b>• Language : Python3</b>
 <b>• Library : Pyrogram v{version}</b>
-<b>• Updates : <a href=https://t.me/VJ_Botz>Click Here</a></b>
-<b>• Source Code : <a href=https://github.com/VJBots/VJ-AutoCaption-Bot>Click Here</a></b>"""
+<b>• Updates : <a href=https://t.me/RnpUpdate>Click Here</a></b>
+<b>• Source Code : <a href=https://t.me/RnpUpdate>Click Here</a></b>"""
 
 @AutoCaptionBotV1.on_message(pyrogram.filters.private & pyrogram.filters.command(["start"]))
 def start_command(bot, update):
@@ -77,7 +77,7 @@ def get_file_details(update: pyrogram.types.Message):
 def start_buttons(bot, update):
   bot = bot.get_me()
   buttons = [[
-   pyrogram.types.InlineKeyboardButton("Updates", url="t.me/VJ_Botz"),
+   pyrogram.types.InlineKeyboardButton("Updates", url="t.me/RnpUpdate"),
    pyrogram.types.InlineKeyboardButton("About 🤠", callback_data="about")
    ],[
    pyrogram.types.InlineKeyboardButton("➕️ Add To Your Channel ➕️", url=f"http://t.me/{bot.username}?startchannel=true")
@@ -91,10 +91,10 @@ def about_buttons(bot, update):
   return pyrogram.types.InlineKeyboardMarkup(buttons)
 
 print("Telegram AutoCaption V1 Bot Start")
-print("Bot Created By https://t.me/VJ_Botz")
+print("Bot Created By https://t.me/RnpUpdate")
 
 AutoCaptionBotV1.run()
 
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @RnpUpdate
+# Subscribe YouTube Channel For Amazing Bot @RnpUpdate
+# Ask Doubt on telegram @RnpUpdate
