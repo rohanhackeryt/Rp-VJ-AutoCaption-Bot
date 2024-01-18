@@ -3,12 +3,12 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'VJBotz'
+    return 'MrRnp'
 
 
 if __name__ == "__main__":
     app.run()
 
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @MrRnp
+# Subscribe YouTube Channel For Amazing Bot @MrRnp
+# Ask Doubt on telegram @MrRnp
