@@ -1,6 +1,6 @@
 {
     "name": "Rp-AutoCaption-Bot",
-    "description": "Auto Caption BoT V1 @KingVJ01",
+    "description": "Auto Caption BoT V1 @RnpUpdate",
     "logo": "https35://graph.org/file/a3a93ffb72878499cce.jpg",
     "keywords": [
         "Private",
@@ -9,7 +9,7 @@
         "Bot"
     ],
     "website": "https://youtube.com/@RnpDeveloper",
-    "repository": "https://github.com/VJBots/Rp-AutoCaption-Bot",
+    "repository": "https://github.com/rohanbhai27/Rp-AutoCaption-Bot",
     "success_url": "https://youtube.com/@RnpDeveloper",
     "env": {
         "app_id": {
